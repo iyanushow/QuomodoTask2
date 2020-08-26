@@ -11,7 +11,7 @@ window.onload = function(){
         var employeeID = $("#ID").val();
         $(".person").text(`${employeeID} - has resumed work at ${currentTime}`) ;
         signout.prop("disabled", false); 
-        $(".resumed").css("display", "block").fadeOut(1000)
+        $(".resumed").css("display", "block").fadeOut(2000)
           
         
     });
@@ -19,7 +19,7 @@ window.onload = function(){
     $(".signout").on("click", function(){
         var employeeID = $("#ID").val();
         $(".person").text(`${employeeID} - has left work at ${currentTime}`) ;
-        $(".resumed").css("display", "block").fadeOut(1000)
+        $(".resumed").css("display", "block").fadeOut(2000)
         
     });
 
